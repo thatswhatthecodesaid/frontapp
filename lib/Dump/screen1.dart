@@ -5,7 +5,6 @@ class MyFlutterApp extends StatelessWidget{
      return(MaterialApp(debugShowCheckedModeBanner: false,
       title: "My Flutter App",
       home: Scaffold(
-        appBar: AppBar(title: Text("My First Screen"),),
         body:Material(
           color:Colors.lightBlueAccent,
           child: Center(
